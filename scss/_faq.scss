@@ -1,0 +1,17 @@
+#faq {
+
+    .card {
+        border: $dark;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+
+    .card-body,
+    .card-header {
+        background: $dark;
+        color: $white;
+    }
+}

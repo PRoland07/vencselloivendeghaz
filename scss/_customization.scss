@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
+
+$body-bg: #FAF1CF;
+$primary: #5DAA68;
+$dark: #3F6844;
+$danger: #E9BD43;
+
+$theme-colors: (
+  "light-1": #FFFAF0
+);
+
+
+$font-family-sans-serif: "Montserrat Alternates", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+/* Slick Slider Button Customization */
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";

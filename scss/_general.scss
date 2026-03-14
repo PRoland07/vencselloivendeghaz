@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 2rem;
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Navbar offset fix, src: https://stackoverflow.com/questions/39588914/how-do-i-add-a-data-offset-to-a-bootstrap-4-fixed-top-responsive-navbar*/
+span {
+    &.anchor {
+        margin-top: -58px; /* height of nav, in this case 58px */
+        display: block;
+        height: 58px; /* height of nav, in this case 58px */
+        visibility: hidden;
+        position: relative;
+    }
+}
+
+::selection {
+    color: $white;
+    background: $primary; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    color: $white;
+    background: $primary; /* Gecko Browsers */
+}
+
+.card {
+    transition: box-shadow .3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 .65em $dark;
+}
